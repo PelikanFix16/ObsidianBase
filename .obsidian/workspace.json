@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a60e104d25b3b067",
+        "id": "22f7a2e07835497b",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebba7e15238877b",
+            "id": "b1db2a3638b09512",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/Kanban/Todo.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:2023-09-02",
+                "query": "tag:frontend",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/Kanban/Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/Kanban/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "templates/Kanban/Todo.md"
+              }
             }
           },
           {
@@ -138,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,15 +164,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dcb1fd45cb5e8eef",
+  "active": "b1db2a3638b09512",
   "lastOpenFiles": [
-    "Project",
-    "templates/Literature/base template metadata literature.md",
+    "Projects/Sample/Sample.md",
+    "Projects/Sample/Tasks/Delete block site - frontend.md",
+    "templates/Kanban/Todo.md",
+    "Projects/Sample/Tasks/Block website - frontend.md",
+    "Projects/Sample/Tasks/BLock website - frontend.md",
+    "Projects/Sample/Tasks/Create block website - frontend.md",
+    "Create block website.md",
+    "test note.md",
+    "templates/Fleeting/Programming.md",
     "templates/Fleeting/base template metadata fleeting.md",
+    "Projects/Sample/Tasks",
+    "Projects/Sample",
+    "Project/Untitled",
+    "Project/Sample project.md",
+    "templates/Kanban",
+    "Projects",
+    "templates/Literature/base template metadata literature.md",
     "Literature/Articles/test.md",
     "templates/Literature/Articles.md",
     "Literature/Articles/MongoDB documentation.md",
-    "templates/Fleeting/Programming.md",
     "Literature/Articles",
     "Literature",
     "templates/Fleeting/Tech.md",
@@ -180,20 +201,7 @@
     "Fleeting/Programming/MongoDb vs relational db as PostgresSQL.md",
     "Fleeting/Programming/test programming note.md",
     "Fleeting/Tech",
-    "Fleeting/Programming",
-    "Fleeting",
-    "Tech",
-    "Programming",
-    "templates/Fleeting",
     "templates/base_template.md",
-    "templates/Tech note.md",
-    "test note.md",
-    "templates/Test template.md",
-    "testnote/2023-09-02 - super mario bros.md",
-    "Untitled Kanban.md",
-    "Daily/2023-09-02 1.md",
-    "Test.md",
-    "templates/Daily 1.md",
-    "Daily/2023-09-01.md"
+    "templates/Tech note.md"
   ]
 }

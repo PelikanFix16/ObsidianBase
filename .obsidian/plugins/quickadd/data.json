@@ -89,9 +89,99 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
+      "name": "Add to kanban",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Add kanban frontend task",
+      "id": "7377f4cc-7ca8-425c-83f9-75f20a95d597",
+      "commands": [
+        {
+          "name": "Add task to kanban",
+          "type": "NestedChoice",
+          "id": "9baea83b-ddf9-484b-98c1-e2f9c025a877",
+          "choice": {
+            "id": "c1ebb0c2-0384-4b19-a6fb-aa77814912ce",
+            "name": "Add task to kanban",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Projects/Sample/Sample.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## ToDo",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add todo template",
+          "type": "NestedChoice",
+          "id": "cd76699a-17de-430d-864c-917e0fd84ad0",
+          "choice": {
+            "id": "f947f15e-67c7-4ba2-b4ef-ebd54fe25cfb",
+            "name": "Add todo template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Kanban/Todo.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projects/Sample/Tasks"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "templates",
