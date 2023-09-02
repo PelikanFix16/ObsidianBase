@@ -140,13 +140,21 @@
                 "file": "Daily/2023-09-02.md"
               }
             }
+          },
+          {
+            "id": "82dc939914d1e3c9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
