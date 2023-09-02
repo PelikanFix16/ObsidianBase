@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "24b69f072732a339",
+        "id": "0f6cd3622c3e956a",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f9f3dfc0a913ac",
+            "id": "a8ef84917837ef0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Daily.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Daily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Daily.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,9 +128,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "75f32ea944bdbffc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,27 +156,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6f9f3dfc0a913ac",
+  "active": "a8ef84917837ef0c",
   "lastOpenFiles": [
-    "test note.md",
-    "Untitled Kanban.md",
-    "templates/Daily.md",
+    "templates/Literature/base template metadata literature.md",
+    "templates/Fleeting/base template metadata fleeting.md",
+    "Literature/Articles/test.md",
+    "templates/Literature/Articles.md",
+    "Literature/Articles/MongoDB documentation.md",
+    "templates/Fleeting/Programming.md",
+    "Literature/Articles",
+    "Literature",
+    "templates/Fleeting/Tech.md",
+    "templates/Fleeting/Daily.md",
     "Daily/2023-09-02.md",
+    "templates/Literature",
+    "assets/Pasted image 20230902175628.png",
+    "templates/Untitled.md",
+    "assets",
+    "Fleeting/Programming/MongoDB.md",
+    "iPhone 16.md",
+    "Fleeting/Programming/test.md",
+    "Fleeting/Programming/MongoDb vs relational db as PostgresSQL.md",
+    "Fleeting/Programming/test programming note.md",
+    "Fleeting/Tech",
+    "Fleeting/Programming",
+    "Fleeting",
+    "Tech",
+    "Programming",
+    "templates/Fleeting",
+    "templates/base_template.md",
+    "templates/Tech note.md",
+    "test note.md",
+    "templates/Test template.md",
+    "testnote/2023-09-02 - super mario bros.md",
+    "Untitled Kanban.md",
     "Daily/2023-09-02 1.md",
     "Test.md",
     "templates/Daily 1.md",
     "Daily/2023-09-01.md",
-    "Daily/2023-08-31.md",
-    "Daily/Untitled.md",
-    "Daily/test.md",
-    "Daily/Test.md",
-    "Daily/Daily.md",
-    "Daily/Untitled 1.md",
-    "Daily",
-    "daily/2023-09-01.md",
-    "daily",
-    "Daily",
-    "Test templater.md",
-    "templates"
+    "Daily/2023-08-31.md"
   ]
 }

@@ -3,5 +3,8 @@
   "dataview",
   "calendar",
   "obsidian-icon-folder",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-kanban",
+  "quickadd",
+  "obsidian-emoji-toolbar"
 ]
