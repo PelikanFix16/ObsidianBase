@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "22f7a2e07835497b",
+        "id": "eaa8369e951cde4a",
         "type": "tabs",
         "children": [
           {
-            "id": "b1db2a3638b09512",
+            "id": "cc32cef5d2728f92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Kanban/Todo.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Kanban/Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Kanban/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Kanban/Todo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,17 +156,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b1db2a3638b09512",
+  "active": "cc32cef5d2728f92",
   "lastOpenFiles": [
+    "Projects/Sample/Tasks/Block website - Frontend.md",
     "Projects/Sample/Sample.md",
-    "Projects/Sample/Tasks/Delete block site - frontend.md",
+    "Projects/Sample/Tasks/[[Block website]] - Frontend.md",
     "templates/Kanban/Todo.md",
+    "templates/Literature/Articles.md",
+    "templates/Fleeting/Programming.md",
+    "templates/Fleeting/Daily.md",
+    "Projects/Sample/Tasks/Delete block site - frontend.md",
     "Projects/Sample/Tasks/Block website - frontend.md",
     "Projects/Sample/Tasks/BLock website - frontend.md",
     "Projects/Sample/Tasks/Create block website - frontend.md",
     "Create block website.md",
     "test note.md",
-    "templates/Fleeting/Programming.md",
     "templates/Fleeting/base template metadata fleeting.md",
     "Projects/Sample/Tasks",
     "Projects/Sample",
@@ -184,12 +180,10 @@
     "Projects",
     "templates/Literature/base template metadata literature.md",
     "Literature/Articles/test.md",
-    "templates/Literature/Articles.md",
     "Literature/Articles/MongoDB documentation.md",
     "Literature/Articles",
     "Literature",
     "templates/Fleeting/Tech.md",
-    "templates/Fleeting/Daily.md",
     "Daily/2023-09-02.md",
     "templates/Literature",
     "assets/Pasted image 20230902175628.png",
@@ -200,8 +194,6 @@
     "Fleeting/Programming/test.md",
     "Fleeting/Programming/MongoDb vs relational db as PostgresSQL.md",
     "Fleeting/Programming/test programming note.md",
-    "Fleeting/Tech",
-    "templates/base_template.md",
-    "templates/Tech note.md"
+    "Fleeting/Tech"
   ]
 }

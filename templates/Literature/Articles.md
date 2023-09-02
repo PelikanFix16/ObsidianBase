@@ -14,10 +14,16 @@ aliases:
 
 ## 📒 Notes
 
+>[!quote] Some title
+>Some body quotes
+>another line
+
 
 ## ✅ Conclusion
 
-
+>[!summary] Some conclusion
+>conclusion
+ 
 
 
 ---

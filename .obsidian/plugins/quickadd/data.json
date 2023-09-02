@@ -92,7 +92,7 @@
     },
     {
       "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
-      "name": "Add to kanban",
+      "name": "Add to kanban - frontend task",
       "type": "Macro",
       "command": true,
       "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
@@ -122,7 +122,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[[{{value:title}}]]"
+              "format": "[[{{value:title}} - Frontend]]"
             },
             "insertAfter": {
               "enabled": true,
@@ -155,7 +155,7 @@
             "templatePath": "templates/Kanban/Todo.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "{{value:title}}"
+              "format": "{{value:title}} - Frontend"
             },
             "folder": {
               "enabled": true,
