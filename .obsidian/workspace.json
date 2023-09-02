@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f6cd3622c3e956a",
+        "id": "a60e104d25b3b067",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ef84917837ef0c",
+            "id": "0ebba7e15238877b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -156,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8ef84917837ef0c",
+  "active": "dcb1fd45cb5e8eef",
   "lastOpenFiles": [
+    "Project",
     "templates/Literature/base template metadata literature.md",
     "templates/Fleeting/base template metadata fleeting.md",
     "Literature/Articles/test.md",
@@ -193,7 +194,6 @@
     "Daily/2023-09-02 1.md",
     "Test.md",
     "templates/Daily 1.md",
-    "Daily/2023-09-01.md",
-    "Daily/2023-08-31.md"
+    "Daily/2023-09-01.md"
   ]
 }
