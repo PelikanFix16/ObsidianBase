@@ -4,36 +4,40 @@ aliases:
 <% tp.file.include('[[base template metadata literature]]') %>
 ---
 
-# 🔗 Reference URL:
 
-- [Google](https://google.com)
 
 ---
 # 🌐 Topic: <% tp.file.title %> 
 
 
-## 📒 Notes
+## 👋 Handy for: 
+
+
+## 🤔 Purpose: 
+
+
+## 🔗 Reference URL:
+
+- [Google](https://google.com)
+
+
+
+---
+# 📒 Notes
 
 >[!quote] Some title
 >Some body quotes
 >another line
 
 
-## ✅ Conclusion
+---
+# ✅ Conclusion
 
 >[!summary] Some conclusion
 >conclusion
  
 
 
----
-# 👋 Handy for: 
-
-
-
-
----
-# 🤔 Purpose: 
 
 
 

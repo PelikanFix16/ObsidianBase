@@ -1,4 +1,4 @@
----
+<%"---"%>
 aliases:
   - <% tp.file.title %> - task
 tags:
@@ -18,10 +18,12 @@ type: task
 
 ## ✅ Subtask
 
-- [ ] Subtasks
-	- [ ] test task
-		- [ ] test 
-	- [ ] test
+```button
+name Add subtask
+type command
+action QuickAdd: Add subtask
+color blue
+```
 
 
 

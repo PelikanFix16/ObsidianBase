@@ -91,11 +91,48 @@
       "setFileExistsBehavior": false
     },
     {
+      "id": "e8815369-dd42-402d-88af-05b57698fd49",
+      "name": "Books (Literature) - quickadd",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Literature/Books.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Literature/Books"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
       "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
       "name": "Add to kanban board",
       "type": "Macro",
       "command": true,
       "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
+    },
+    {
+      "id": "37b130a1-097a-4540-80e2-cad749503689",
+      "name": "Add subtask",
+      "type": "Macro",
+      "command": true,
+      "macroId": "2310dec1-f12c-400d-8284-2e579e295054"
     }
   ],
   "macros": [
@@ -127,10 +164,10 @@
             "insertAfter": {
               "enabled": true,
               "after": "## ToDo",
-              "insertAtEnd": false,
+              "insertAtEnd": true,
               "considerSubsections": false,
               "createIfNotFound": true,
-              "createIfNotFoundLocation": "top"
+              "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
             "task": true,
@@ -171,6 +208,86 @@
               "focus": false
             },
             "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add subtask to task",
+      "id": "2310dec1-f12c-400d-8284-2e579e295054",
+      "commands": [
+        {
+          "name": "Add subtask to list on task",
+          "type": "NestedChoice",
+          "id": "330d73af-21bd-4067-96dd-2bb576179f91",
+          "choice": {
+            "id": "2b77fa97-68f3-4379-aa8c-01d305592d50",
+            "name": "Add subtask to list on task",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}|{{value:title}} - subtask]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## ✅ Subtask",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add subtask template",
+          "type": "NestedChoice",
+          "id": "4f49afec-c57a-468e-8d64-fc805dc654e6",
+          "choice": {
+            "id": "5a53ead2-597f-493a-8b37-e4c48eb5c9e5",
+            "name": "Add subtask template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Kanban/Subtask.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "10a37be3a681fc7c",
+        "id": "78181dac3f8fb8af",
         "type": "tabs",
         "children": [
           {
-            "id": "3668fee7b8173ee0",
+            "id": "1c5ce7a89299a279",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Kanban/Task.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,11 +81,10 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Kanban/Task.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Kanban/Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Kanban/Task.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,11 +138,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,42 +156,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3668fee7b8173ee0",
+  "active": "1c5ce7a89299a279",
   "lastOpenFiles": [
-    "templates/Kanban/Subtask.md",
-    "templates/Kanban/Todo (copy).md",
+    "templates/Literature/Books.md",
+    "Literature/Books/mario.md",
+    "Literature/Articles/test.md",
+    "mario.md",
+    "Literature/Books",
+    "templates/Literature/Articles.md",
+    "templates/Literature/base template metadata literature.md",
     "templates/Kanban/Task.md",
+    "Literature/Articles/Untitled.md",
     "Projects/Sample/Sample.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/new task.md",
+    "Projects/Sample/Tasks/2023-09-04/examplete-test.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks",
+    "templates/Kanban/Subtask.md",
+    "Projects/Sample/Tasks/2023-09-04/testd.md",
     "Projects/Sample/Tasks/2023-09-04/test.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/dupa6.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/laskotki.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/makaron.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/example334.md",
+    "Projects/Sample/Tasks/2023-09-04/example.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/testxds.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/example23.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/example.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/example.md",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks/test-example.md",
     "Projects/Sample/Tasks/2023-09-04",
     "Projects/Sample/Tasks",
-    "Projects/Sample/Tasks/2023-09-04/Test task super hiper car.md",
-    "Projects/Sample/Tasks/2023-09-04/super - duper test task.md",
-    "Projects/Sample/Tasks/2023-09-04/Test.md",
-    "test - task.md",
-    "Projects/Sample/Tasks/2023-09-04/test task .md",
-    "test task.md",
-    "templates/Fleeting/Tech.md",
-    "Projects/Sample/test title.md",
-    "test.md",
-    "Tasks/tset.md",
+    "test-example.md",
+    "example.md",
     "Tasks",
-    "Projects/Sample/Dashboard.md",
-    "templates/Fleeting/Daily.md",
-    "Daily/Dupa8.md",
-    "Projects/Sample/Tasks/Block website.md",
-    "Projects/Sample/Tasks/[[Block website]] - Frontend.md",
-    "templates/Literature/Articles.md",
-    "templates/Fleeting/Programming.md",
-    "Projects/Sample/Tasks/Delete block site - frontend.md",
-    "Projects/Sample/Tasks/Block website - frontend.md",
     "Projects/Sample",
     "Project/Untitled",
     "templates/Kanban",
     "Projects",
     "Literature/Articles",
-    "Literature",
-    "templates/Literature",
     "assets/Pasted image 20230902175628.png"
   ]
 }

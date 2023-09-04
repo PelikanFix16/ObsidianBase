@@ -29,6 +29,10 @@
     {
       "folder": "Literature/Articles",
       "template": "templates/Literature/Articles.md"
+    },
+    {
+      "folder": "Literature/Books",
+      "template": "templates/Literature/Books.md"
     }
   ],
   "syntax_highlighting": true,
