@@ -92,7 +92,7 @@
     },
     {
       "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
-      "name": "Add to kanban - frontend task",
+      "name": "Add to kanban board",
       "type": "Macro",
       "command": true,
       "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
@@ -100,7 +100,7 @@
   ],
   "macros": [
     {
-      "name": "Add kanban frontend task",
+      "name": "Add kanban task",
       "id": "7377f4cc-7ca8-425c-83f9-75f20a95d597",
       "commands": [
         {
@@ -114,7 +114,7 @@
             "command": false,
             "appendLink": false,
             "captureTo": "Projects/Sample/Sample.md",
-            "captureToActiveFile": false,
+            "captureToActiveFile": true,
             "createFileIfItDoesntExist": {
               "enabled": false,
               "createWithTemplate": false,
@@ -122,7 +122,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[[{{value:title}} - Frontend]]"
+              "format": "[[{{value:title}}|{{value:title}} - task]]"
             },
             "insertAfter": {
               "enabled": true,
@@ -152,25 +152,23 @@
             "name": "Add todo template",
             "type": "Template",
             "command": false,
-            "templatePath": "templates/Kanban/Todo.md",
+            "templatePath": "templates/Kanban/Task.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "{{value:title}} - Frontend"
+              "format": "{{value:title}}"
             },
             "folder": {
               "enabled": true,
-              "folders": [
-                "Projects/Sample/Tasks"
-              ],
+              "folders": [],
               "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
+              "createInSameFolderAsActiveFile": true,
               "chooseFromSubfolders": false
             },
             "appendLink": false,
             "openFileInNewTab": {
               "enabled": true,
               "direction": "vertical",
-              "focus": true
+              "focus": false
             },
             "openFile": true,
             "openFileInMode": "default",

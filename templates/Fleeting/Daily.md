@@ -7,4 +7,3 @@ aliases:
 # 🌅 Daily note ==#`$= dv.pages('"<% tp.file.folder() %>"').where(b => b.date).where(b => dv.date(b.date) < dv.date("<% tp.date.now("YYYY-MM-DD") %>")).length`==
 <% await tp.file.move("/Daily/" + tp.file.title) %>
 
-

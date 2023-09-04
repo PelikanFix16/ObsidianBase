@@ -5,7 +5,6 @@ kanban-plugin: basic
 ---
 
 ## ToDo
-- [ ] [[Block website - Frontend]]
 
 
 
