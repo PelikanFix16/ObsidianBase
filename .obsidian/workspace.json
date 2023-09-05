@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Literature/Articles.md",
+                "file": "templates/Literature/Books.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Literature/Articles.md",
+                "file": "templates/Literature/Books.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Literature/Articles.md",
+                "file": "templates/Literature/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Literature/Articles.md"
+                "file": "templates/Literature/Books.md"
               }
             }
           },
@@ -167,6 +167,7 @@
   },
   "active": "1c5ce7a89299a279",
   "lastOpenFiles": [
+    "templates/Literature/Articles.md",
     "templates/Project",
     "templates/Project",
     "templates/Literature/Books.md",
@@ -174,7 +175,6 @@
     "Literature/Articles/test.md",
     "mario.md",
     "Literature/Books",
-    "templates/Literature/Articles.md",
     "templates/Literature/base template metadata literature.md",
     "templates/Kanban/Task.md",
     "Literature/Articles/Untitled.md",
@@ -202,7 +202,6 @@
     "Projects/Sample",
     "Project/Untitled",
     "templates/Kanban",
-    "Projects",
     "assets/Pasted image 20230902175628.png"
   ]
 }

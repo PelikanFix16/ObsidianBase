@@ -19,9 +19,6 @@ publish_date: ""
 ## 📝 Description
 
 
-## 👋 Handy for: 
-
-
 ## 🤔 Purpose: 
 
 
