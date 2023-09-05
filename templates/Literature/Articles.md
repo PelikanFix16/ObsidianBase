@@ -10,9 +10,6 @@ aliases:
 # 🌐 Topic: <% tp.file.title %> 
 
 
-## 👋 Handy for: 
-
-
 ## 🤔 Purpose: 
 
 

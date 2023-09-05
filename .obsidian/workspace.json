@@ -11,8 +11,13 @@
             "id": "1c5ce7a89299a279",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/Literature/Articles.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/Literature/Articles.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/Literature/Articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "templates/Literature/Articles.md"
+              }
             }
           },
           {
@@ -158,6 +167,8 @@
   },
   "active": "1c5ce7a89299a279",
   "lastOpenFiles": [
+    "templates/Project",
+    "templates/Project",
     "templates/Literature/Books.md",
     "Literature/Books/mario.md",
     "Literature/Articles/test.md",
@@ -187,13 +198,11 @@
     "Projects/Sample/Tasks/2023-09-04",
     "Projects/Sample/Tasks",
     "test-example.md",
-    "example.md",
     "Tasks",
     "Projects/Sample",
     "Project/Untitled",
     "templates/Kanban",
     "Projects",
-    "Literature/Articles",
     "assets/Pasted image 20230902175628.png"
   ]
 }
