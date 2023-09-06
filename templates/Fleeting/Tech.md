@@ -7,8 +7,7 @@ aliases:
 # 🖥️ Topic: <% tp.file.title %>
 
 
----
-# 📝 References
+<% tp.file.include('[[base template]]') %>
 
 
 <% await tp.file.move("/Fleeting/Tech/"+tp.file.title) %>

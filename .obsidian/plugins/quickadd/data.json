@@ -61,6 +61,66 @@
       "setFileExistsBehavior": false
     },
     {
+      "id": "7bab1496-f7be-4e04-885b-83b7c10f2339",
+      "name": "Trading (Fleeting) - quickadd",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Fleeting/Trading.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Fleeting/Trading"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c1d56f66-0e0f-4a1a-adb4-3448e4a925fa",
+      "name": "DevOps (Fleeting) - quickadd",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Fleeting/DevOps.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Fleeting/DevOps"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
       "id": "070fac00-2148-48b1-bc99-d3b2046744b7",
       "name": "Articles (Literature) - quickadd",
       "type": "Template",
@@ -122,10 +182,38 @@
     },
     {
       "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
-      "name": "Add to kanban board",
+      "name": "Add task (Task) - quickadd",
       "type": "Macro",
       "command": true,
       "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
+    },
+    {
+      "id": "e979eb95-3c9f-4290-a86d-a71dd10c5c4e",
+      "name": "Add index (Project) - quickadd",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Project/Index.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": true,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     },
     {
       "id": "37b130a1-097a-4540-80e2-cad749503689",
@@ -133,6 +221,62 @@
       "type": "Macro",
       "command": true,
       "macroId": "2310dec1-f12c-400d-8284-2e579e295054"
+    },
+    {
+      "id": "c5c199f6-d164-46f5-9169-e14974b7ebd9",
+      "name": "Add project fleeting note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Project/Fleeting note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": true,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c3701cdc-a8e1-441c-84d6-13108253be50",
+      "name": "Add project permanent note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Project/Permanent note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": true,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [

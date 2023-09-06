@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "78181dac3f8fb8af",
+        "id": "75b50ae01c406ba2",
         "type": "tabs",
         "children": [
           {
-            "id": "1c5ce7a89299a279",
+            "id": "c540653cb461a223",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Literature/Books.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Literature/Books.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Literature/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Literature/Books.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,43 +156,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c5ce7a89299a279",
+  "active": "c540653cb461a223",
   "lastOpenFiles": [
-    "templates/Literature/Articles.md",
-    "templates/Project",
-    "templates/Project",
-    "templates/Literature/Books.md",
-    "Literature/Books/mario.md",
-    "Literature/Articles/test.md",
-    "mario.md",
-    "Literature/Books",
-    "templates/Literature/base template metadata literature.md",
-    "templates/Kanban/Task.md",
-    "Literature/Articles/Untitled.md",
+    "Projects/Sample/notes/permanent/test.md",
+    "Projects/Sample/notes/permanent",
+    "Projects/Sample/notes",
+    "Projects/Sample/index page.md",
+    "templates/Project/Permanent note.md",
     "Projects/Sample/Sample.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/new task.md",
-    "Projects/Sample/Tasks/2023-09-04/examplete-test.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks",
+    "Projects/Sample/notes/permanent/test note.md",
+    "templates/Project/Index.md",
+    "templates/Project/Fleeting note.md",
+    "templates/Fleeting/base template.md",
+    "templates/Fleeting/Daily.md",
+    "templates/Literature/Articles.md",
+    "templates/Literature/Books.md",
     "templates/Kanban/Subtask.md",
-    "Projects/Sample/Tasks/2023-09-04/testd.md",
-    "Projects/Sample/Tasks/2023-09-04/test.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/dupa6.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/laskotki.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/makaron.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/example334.md",
-    "Projects/Sample/Tasks/2023-09-04/example.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/testxds.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/example23.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/example.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/example.md",
-    "Projects/Sample/Tasks/2023-09-04/Subtasks/test-example.md",
-    "Projects/Sample/Tasks/2023-09-04",
-    "Projects/Sample/Tasks",
-    "test-example.md",
-    "Tasks",
-    "Projects/Sample",
-    "Project/Untitled",
-    "templates/Kanban",
+    "templates/Fleeting/base template metadata fleeting.md",
+    "templates/Fleeting/Programming.md",
+    "Projects/Sample/Index page.md",
+    "Projects/Sample/notes/fleeting/test.md",
+    "Projects/Sample/notes/fleeting",
+    "templates/Fleeting/DevOps.md",
+    "Projects/Sample/notes/fleetingtest.md",
+    "templates/Kanban/Task.md",
+    "templates/Fleeting/Tech.md",
+    "Projects/Sample/test index.md",
+    "Fleeting/DevOps",
+    "Fleeting/Trading/test trade.md",
+    "templates/Project",
+    "templates/Fleeting/Trading.md",
+    "Fleeting/Trading",
+    "templates/Project",
+    "templates/Project",
+    "Literature/Books/mario.md",
+    "Literature/Books",
+    "Projects/Sample/Tasks/2023-09-04/Subtasks",
     "assets/Pasted image 20230902175628.png"
   ]
 }
