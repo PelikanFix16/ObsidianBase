@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "33555086f22affd6",
+        "id": "189d166b3f31900e",
         "type": "tabs",
         "children": [
           {
-            "id": "ca6d708c46f5fc54",
+            "id": "c2d6a6551fb93d00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/Fleeting/Note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/Fleeting/Note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/Fleeting/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "templates/Fleeting/Note.md"
+              }
             }
           },
           {
@@ -156,16 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dcb1fd45cb5e8eef",
+  "active": "c2d6a6551fb93d00",
   "lastOpenFiles": [
+    "templates/Fleeting/index.md",
+    "templates/Fleeting/Daily.md",
+    "templates/Fleeting/base template metadata fleeting.md",
+    "templates/Fleeting/base template.md",
+    "Projects/test/index.md",
     "Dashboard.md",
+    "Projects/test/test.md",
+    "Projects/test",
     "templates/Project/index.md",
     "Projects/test/Tasks/2023-09-06/test1.md",
     "Projects/test/Tasks/2023-09-06",
     "Projects/test/Tasks",
-    "Projects/test/test.md",
-    "Projects/test/index.md",
-    "Projects/test",
     "Projects/test/Tasks/2023-09-06/Subtasks/promo code.md",
     "Projects/test/Tasks/2023-09-06/Subtasks",
     "Projects/test/Tasks/2023-09-06/Subtasks/super promo code.md",
@@ -175,7 +188,6 @@
     "templates/Project/board.md",
     "templates/Project/Fleeting note.md",
     "templates/Project/Permanent note.md",
-    "templates/Fleeting/base template metadata fleeting.md",
     "templates/Literature/base template metadata literature.md",
     "templates/Literature/Articles.md",
     "Projects/aispire-frontend/aispire-frontend.md",
@@ -188,7 +200,6 @@
     "Projects/AISPIRE - frontend/index.md",
     "Projects/AISPIRE - frontend",
     "Projects/Sample/Sample.md",
-    "Literature/Books/test.md",
     "Fleeting/test/notes/2023-09-06",
     "Fleeting/test/notes",
     "Fleeting/test",
