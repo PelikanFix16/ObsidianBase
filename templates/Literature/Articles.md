@@ -10,13 +10,11 @@ aliases:
 # 🌐 Topic: <% tp.file.title %> 
 
 
-## 🤔 Purpose: 
-
-
 ## 🔗 Reference URL:
 
 - [Google](https://google.com)
 
+## 🤔 Purpose: 
 
 
 ---

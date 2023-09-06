@@ -20,6 +20,12 @@
         "for": "folders"
       },
       {
+        "rule": "Dashboard",
+        "icon": "FarAddressCard",
+        "for": "files",
+        "color": "#bba016"
+      },
+      {
         "rule": "Tasks",
         "icon": "FarSquareCheck",
         "for": "folders"

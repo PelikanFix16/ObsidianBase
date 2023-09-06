@@ -1,124 +1,11 @@
 {
   "choices": [
     {
-      "id": "c133177c-391d-4983-8f91-6fbc7e8dc318",
-      "name": "Programming (Fleeting) - quickadd",
-      "type": "Template",
+      "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
+      "name": "Add task (Task) - quickadd",
+      "type": "Macro",
       "command": true,
-      "templatePath": "templates/Fleeting/Programming.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Fleeting/Programming"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "81a1cfe5-beb4-4921-8b16-bff0ba09151b",
-      "name": "Tech (Fleeting) - quickadd",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Fleeting/Tech.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Fleeting/Tech"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "7bab1496-f7be-4e04-885b-83b7c10f2339",
-      "name": "Trading (Fleeting) - quickadd",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Fleeting/Trading.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value:title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Fleeting/Trading"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "c1d56f66-0e0f-4a1a-adb4-3448e4a925fa",
-      "name": "DevOps (Fleeting) - quickadd",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Fleeting/DevOps.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value:title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Fleeting/DevOps"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
     },
     {
       "id": "070fac00-2148-48b1-bc99-d3b2046744b7",
@@ -128,7 +15,7 @@
       "templatePath": "templates/Literature/Articles.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{value}}"
+        "format": "{{value:note title}}"
       },
       "folder": {
         "enabled": true,
@@ -158,7 +45,7 @@
       "templatePath": "templates/Literature/Books.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{value:title}}"
+        "format": "{{value:note title}}"
       },
       "folder": {
         "enabled": true,
@@ -179,13 +66,6 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
-    },
-    {
-      "id": "f2c74d36-9133-4345-9806-ae579e3ce5b6",
-      "name": "Add task (Task) - quickadd",
-      "type": "Macro",
-      "command": true,
-      "macroId": "7377f4cc-7ca8-425c-83f9-75f20a95d597"
     },
     {
       "id": "e979eb95-3c9f-4290-a86d-a71dd10c5c4e",
@@ -277,6 +157,71 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "4ea7e509-a694-48a1-8562-b1508c3d8fc4",
+      "name": "Add fleeting index",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Fleeting/index.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "index"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Fleeting/{{value:folder name}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "d9fcebbf-1f4a-4a85-b92f-54e06ea3f7d4",
+      "name": "Add fleeting note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Fleeting/Note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:note title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": true,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "eb3df30e-525c-4a1c-a46d-2e45928c9e15",
+      "name": "Create project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "343e1b9e-dda1-449e-ace2-af09b1cf4e79"
     }
   ],
   "macros": [
@@ -294,7 +239,7 @@
             "type": "Capture",
             "command": false,
             "appendLink": false,
-            "captureTo": "Projects/Sample/Sample.md",
+            "captureTo": "./test.md",
             "captureToActiveFile": true,
             "createFileIfItDoesntExist": {
               "enabled": false,
@@ -423,6 +368,83 @@
               "folders": [],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create project",
+      "id": "343e1b9e-dda1-449e-ace2-af09b1cf4e79",
+      "commands": [
+        {
+          "name": "Add kanban board",
+          "type": "NestedChoice",
+          "id": "afffddea-7363-4377-b6f7-909a9d0e1232",
+          "choice": {
+            "id": "f5ff5810-5381-4c78-9f59-9a613fd76d7c",
+            "name": "Add kanban board",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Project/board.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:project name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projects/{{value:project name}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add index",
+          "type": "NestedChoice",
+          "id": "01faeb43-04ab-4f98-a60c-490edbbdd70a",
+          "choice": {
+            "id": "357ed920-c668-43db-bd37-b7e366d18919",
+            "name": "Add index",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Project/index.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "index"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projects/{{value:project name}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
               "chooseFromSubfolders": false
             },
             "appendLink": false,

@@ -1,13 +1,17 @@
-<%"---"%>
+---
 aliases:
-  - <% tp.file.folder() %> - index
+  - test - index
 tags:
-  - <% tp.file.folder() %>
+  - test
   - Index
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2023-09-06
 type: index
 ---
 
+# ❗ Create new note in kanban board 
+
+1. **Open Kanban board**
+2. **Click** `ALT+K`
 # ⚡ Fleeting notes:
 
 ```button
@@ -20,7 +24,7 @@ color blue
 
 ```dataview
 LIST
-FROM "Projects/<% tp.file.folder() %>/notes/fleeting" and #Fleeting 
+FROM "Projects/test/notes/fleeting" and #Fleeting 
 ```
 
 
@@ -37,6 +41,6 @@ color blue
 
 ```dataview
 LIST
-FROM "Projects/<% tp.file.folder() %>/notes/permanent" and #Permanent 
+FROM "Projects/test/notes/permanent" and #Permanent 
 ```
 

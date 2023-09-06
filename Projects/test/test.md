@@ -1,10 +1,14 @@
 ---
-
 kanban-plugin: basic
-
+tags:
+  - "test"
+  - Kanban
+aliases:
+  - "test board"
 ---
 
 ## ToDo
+- [ ] [[test|test - task]]
 
 
 
