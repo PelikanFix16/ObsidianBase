@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "189d166b3f31900e",
+        "id": "660d066bab91d796",
         "type": "tabs",
         "children": [
           {
-            "id": "c2d6a6551fb93d00",
+            "id": "7e8179796cd7aaba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Fleeting/Note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Fleeting/Note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Fleeting/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Fleeting/Note.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,8 +156,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c2d6a6551fb93d00",
+  "active": "66173bac21de0779",
   "lastOpenFiles": [
+    "templates/Kanban/Subtask.md",
+    "templates/Fleeting/Note.md",
     "templates/Fleeting/index.md",
     "templates/Fleeting/Daily.md",
     "templates/Fleeting/base template.md",
@@ -175,7 +168,6 @@
     "templates/Literature/Books.md",
     "templates/Literature/Articles.md",
     "templates/Fleeting/base template metadata fleeting.md",
-    "templates/Fleeting/Note.md",
     "Projects/test/index.md",
     "Dashboard.md",
     "Projects/test/test.md",
@@ -198,7 +190,6 @@
     "Projects/aispire - frontend/aispire - frontend.md",
     "Projects/aispire - frontend/index.md",
     "Projects/aispire - frontend",
-    "Projects/test/test - kanban.md",
     "Projects/AISPIRE - frontend",
     "Fleeting/test/notes/2023-09-06",
     "Fleeting/test/notes",

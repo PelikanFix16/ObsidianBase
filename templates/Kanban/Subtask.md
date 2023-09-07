@@ -3,7 +3,6 @@ aliases:
   - <% tp.file.title %> - subtask
 tags:
   - Subtask
-  - Kanban
   - <% tp.file.folder(true).split("/")[tp.file.folder(true).split("/").length - 3] %>
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: subtask
