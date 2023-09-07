@@ -3,7 +3,6 @@ aliases:
   - <% tp.file.title %> - task
 tags:
   - Task
-  - Kanban
   - <% tp.file.folder() %>
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: task

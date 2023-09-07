@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "660d066bab91d796",
+        "id": "81d65a7321e64c15",
         "type": "tabs",
         "children": [
           {
-            "id": "7e8179796cd7aaba",
+            "id": "a79b0fe636f59731",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -156,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "66173bac21de0779",
+  "active": "a79b0fe636f59731",
   "lastOpenFiles": [
+    "templates/Kanban/Task.md",
     "templates/Kanban/Subtask.md",
     "templates/Fleeting/Note.md",
     "templates/Fleeting/index.md",
@@ -188,7 +189,6 @@
     "Projects/aispire-frontend/index.md",
     "Projects/aispire-frontend",
     "Projects/aispire - frontend/aispire - frontend.md",
-    "Projects/aispire - frontend/index.md",
     "Projects/aispire - frontend",
     "Projects/AISPIRE - frontend",
     "Fleeting/test/notes/2023-09-06",
