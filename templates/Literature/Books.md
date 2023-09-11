@@ -3,9 +3,9 @@ aliases:
   - "Book: <% tp.file.title %>"
 author: ""
 title: ""
-description: ""
 category: ""
 publish_date: ""
+status: ""
 <% tp.file.include('[[base template metadata literature]]') %>
 ---
 
@@ -23,17 +23,19 @@ publish_date: ""
 
 
 ---
-# 📒 Notes
+# Chapter
+
+## 📒 Notes
 
 >[!quote] Some title
 >Some body quotes
 >another line
 
----
-# ✅ Conclusion
+## ✅ Conclusion
 
 >[!summary] Some conclusion
 >conclusion
+
 
 
 
