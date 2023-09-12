@@ -31,6 +31,17 @@ action QuickAdd: Books (Literature) - quickadd
 ```
 
 
+# 📒 Permanent notes
+
+```button
+name Create permanent notes project
+type command
+action QuickAdd: Create moc for permanent
+color yellow
+```
+
+
+
 # 📽️ Create project
 
 ```button

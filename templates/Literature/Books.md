@@ -21,21 +21,20 @@ status: ""
 
 ## 🤔 Purpose: 
 
+---
+# 📒 Create fleeting note:
 
 ---
 # Chapter
 
-## 📒 Notes
+### ❜ Quotes page: 1
 
->[!quote] Some title
->Some body quotes
->another line
 
-## ✅ Conclusion
+>[!quote]
+>Some quote
+>
 
->[!summary] Some conclusion
->conclusion
-
+**Annotation to note**: 
 
 
 

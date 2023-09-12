@@ -1,5 +1,6 @@
 {
   "propertiesInDocument": "visible",
   "promptDelete": false,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true
 }

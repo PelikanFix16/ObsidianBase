@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "81d65a7321e64c15",
+        "id": "06033d835a40bfb4",
         "type": "tabs",
         "children": [
           {
-            "id": "a79b0fe636f59731",
+            "id": "c99f9b5800ebeacc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Literature/Books.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Literature/Books.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Literature/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Literature/Books.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,6 +135,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "c29691b8041b90a6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -165,44 +166,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a79b0fe636f59731",
+  "active": "c99f9b5800ebeacc",
   "lastOpenFiles": [
-    "templates/Kanban/Task.md",
-    "templates/Kanban/Subtask.md",
-    "templates/Fleeting/Note.md",
-    "templates/Fleeting/index.md",
-    "templates/Fleeting/Daily.md",
-    "templates/Fleeting/base template.md",
-    "templates/Project/Fleeting note.md",
     "templates/Project/board.md",
-    "templates/Literature/Books.md",
-    "templates/Literature/Articles.md",
-    "templates/Fleeting/base template metadata fleeting.md",
-    "Projects/test/index.md",
-    "Dashboard.md",
-    "Projects/test/test.md",
-    "Projects/test",
+    "templates/Project/Fleeting note.md",
     "templates/Project/index.md",
-    "Projects/test/Tasks/2023-09-06/test1.md",
-    "Projects/test/Tasks/2023-09-06",
-    "Projects/test/Tasks",
-    "Projects/test/Tasks/2023-09-06/Subtasks/promo code.md",
-    "Projects/test/Tasks/2023-09-06/Subtasks",
-    "Projects/test/Tasks/2023-09-06/Subtasks/super promo code.md",
-    "Projects/test/Tasks/2023-09-06/new file.md",
-    "Projects/test/Tasks/2023-09-06/Subtasks/test.md",
-    "templates/Project/folder.md",
+    "Projects/new project/index.md",
+    "Projects/new project/notes/permanent/test note.md",
+    "Projects/new project/notes/permanent",
+    "Projects/new project/notes/fleeting/test note.md",
+    "Projects/new project/notes/fleeting",
+    "Projects/new project/notes",
+    "Projects/new project/new project.md",
+    "Dashboard.md",
+    "Projects/new project",
+    "Projects",
+    "Projects/aispire/index.md",
+    "Projects/aispire/notes/fleeting/test note.md",
+    "Projects/aispire/notes/fleeting/new note.md",
+    "Projects/aispire/notes/fleeting",
+    "Projects/aispire/aispire.md",
     "templates/Project/Permanent note.md",
-    "templates/Literature/base template metadata literature.md",
-    "Projects/aispire-frontend/aispire-frontend.md",
-    "Projects/aispire-frontend/index.md",
-    "Projects/aispire-frontend",
-    "Projects/aispire - frontend/aispire - frontend.md",
-    "Projects/aispire - frontend",
-    "Projects/AISPIRE - frontend",
-    "Fleeting/test/notes/2023-09-06",
-    "Fleeting/test/notes",
-    "Fleeting/test",
+    "Projects/aispire/notes/permanent/test note.md",
+    "Projects/aispire/notes/permanent",
+    "Projects/aispire/notes",
+    "Projects/aispire",
+    "Projects/test/notes/fleeting/test1.md",
+    "Projects/test/index.md",
+    "Projects/test/notes/fleeting",
+    "Projects/test/test.md",
+    "Projects/test/notes/fleeting/notatka.md",
+    "Permanent/Manipulacja/permanent/supra.md",
+    "Permanent/Manipulacja/Manipulacja.md",
+    "Permanent/Manipulacja/permanent/marchewki.md",
+    "templates/Permanent/permanent.md",
+    "Permanent/Manipulacja/permanent/Nawyki.md",
+    "templates/Permanent/moc.md",
+    "templates/Literature/Books.md",
     "assets/Pasted image 20230902175628.png"
   ]
 }

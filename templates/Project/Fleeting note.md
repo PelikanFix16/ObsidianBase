@@ -1,6 +1,6 @@
 <%"---"%>
 aliases:
-  - "<% tp.file.folder() %> fleeting note: <% tp.file.title %>"
+  - "fleeting note project: <% tp.file.title %>"
 tags:
   - <% tp.file.folder() %>
   - Fleeting

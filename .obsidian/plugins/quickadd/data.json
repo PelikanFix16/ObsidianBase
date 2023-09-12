@@ -103,62 +103,6 @@
       "macroId": "2310dec1-f12c-400d-8284-2e579e295054"
     },
     {
-      "id": "c5c199f6-d164-46f5-9169-e14974b7ebd9",
-      "name": "Add project fleeting note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Project/Fleeting note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value:title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": true,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "c3701cdc-a8e1-441c-84d6-13108253be50",
-      "name": "Add project permanent note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Project/Permanent note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value:title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": true,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "4ea7e509-a694-48a1-8562-b1508c3d8fc4",
       "name": "Add fleeting index",
       "type": "Template",
@@ -222,6 +166,57 @@
       "type": "Macro",
       "command": true,
       "macroId": "343e1b9e-dda1-449e-ace2-af09b1cf4e79"
+    },
+    {
+      "id": "41271225-35b1-47b2-bd95-fc8b148fc44e",
+      "name": "Create moc for permanent",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Permanent/moc.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Permanent/{{value:title}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "66095fd4-b3b3-49cd-b4b0-bc9f442c6e9a",
+      "name": "Add permanent note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "287cbdfe-ab46-4fa4-b075-ff6703b5cb35"
+    },
+    {
+      "id": "22f70564-8fda-4007-8974-fed30144b22a",
+      "name": "Add fleeting note project macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "2c22f4bf-5d2e-42e2-82d5-1d86ebcde9f5"
+    },
+    {
+      "id": "26c4944a-0707-4860-9529-10b49533f60b",
+      "name": "Add permanent note project macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "fe419965-0433-4084-9875-5d2b0ecd348b"
     }
   ],
   "macros": [
@@ -454,6 +449,246 @@
               "focus": true
             },
             "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create permanent note",
+      "id": "287cbdfe-ab46-4fa4-b075-ff6703b5cb35",
+      "commands": [
+        {
+          "name": "Add link to permanent note",
+          "type": "NestedChoice",
+          "id": "a3071b05-1ba9-4a72-ab9b-f9010e41ddca",
+          "choice": {
+            "id": "9b161282-1bbf-4e88-a314-dc2d3205758c",
+            "name": "Add link to permanent note",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "{{value:title}}",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}|Permanent note: {{value:title}}|]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# 🗺️ Moc content",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add permanent template",
+          "type": "NestedChoice",
+          "id": "f1c0334c-f160-45aa-9158-e5b6bfa6eff3",
+          "choice": {
+            "id": "51fb7f4d-9300-41de-b20b-eb60f02a7f52",
+            "name": "Add permanent template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Permanent/permanent.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add project fleating note macro",
+      "id": "2c22f4bf-5d2e-42e2-82d5-1d86ebcde9f5",
+      "commands": [
+        {
+          "name": "Add link",
+          "type": "NestedChoice",
+          "id": "377965ed-56b1-4f9f-ac4f-d941ed30c7eb",
+          "choice": {
+            "id": "7d6fec3e-6cf5-44d0-aa84-b8fa54f62afc",
+            "name": "Add link",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}|fleeting note project: {{value:title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# ⚡ Fleeting notes:",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add template",
+          "type": "NestedChoice",
+          "id": "de939f7d-2abe-4422-9897-652ff4776d17",
+          "choice": {
+            "id": "8b2149a6-38ba-4849-b0d7-20f56751e2fd",
+            "name": "Add template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Project/Fleeting note.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add project permanent note macro",
+      "id": "fe419965-0433-4084-9875-5d2b0ecd348b",
+      "commands": [
+        {
+          "name": "Add link",
+          "type": "NestedChoice",
+          "id": "f7ee6f9f-cbeb-4f4c-b87f-573ec3af2af7",
+          "choice": {
+            "id": "db880375-9c01-45de-aad3-fe9ae24ec19a",
+            "name": "Add link",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}|permanent note project: {{value:title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# 🚩 Permanent notes:",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add template",
+          "type": "NestedChoice",
+          "id": "732326b8-9b32-47c0-9d91-b61ad92cb07b",
+          "choice": {
+            "id": "eed23cb2-84c3-4ce8-a129-f3f93e5e1fd4",
+            "name": "Add template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Project/Permanent note.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false

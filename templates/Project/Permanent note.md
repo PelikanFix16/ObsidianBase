@@ -1,6 +1,6 @@
 <%"---"%>
 aliases:
-  - "<% tp.file.folder() %> permanent note: <% tp.file.title %>"
+  - "permanent note project: <% tp.file.title %>"
 tags:
   - <% tp.file.folder() %>
   - Permanent

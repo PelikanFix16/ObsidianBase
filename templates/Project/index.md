@@ -7,40 +7,31 @@ tags:
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: index
 ---
-
+---
 # ❗ Create new note in kanban board 
 
 1. **Open Kanban board**
 2. **Click** `ALT+K`
+
+---
 # ⚡ Fleeting notes:
 
 ```button
 name Add fleeting note
 type command
-action QuickAdd: Add project fleeting note
+action QuickAdd: Add fleeting note project macro
 color blue
 ```
 
 
-```dataview
-LIST
-FROM "Projects/<% tp.file.folder() %>/notes/fleeting" and #Fleeting 
-```
 
-
-
+---
 # 🚩 Permanent notes:
 
 ```button
 name Add Permanent note
 type command
-action QuickAdd: Add project permanent note
+action QuickAdd: Add permanent note project macro
 color blue
-```
-
-
-```dataview
-LIST
-FROM "Projects/<% tp.file.folder() %>/notes/permanent" and #Permanent 
 ```
 
