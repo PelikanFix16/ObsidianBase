@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06033d835a40bfb4",
+        "id": "21324d60807bcd52",
         "type": "tabs",
         "children": [
           {
-            "id": "c99f9b5800ebeacc",
+            "id": "a1ebcfdf7545e1ba",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,11 +166,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c99f9b5800ebeacc",
+  "active": "a1ebcfdf7545e1ba",
   "lastOpenFiles": [
-    "templates/Project/board.md",
-    "templates/Project/Fleeting note.md",
     "templates/Project/index.md",
+    "templates/Project/Fleeting note.md",
+    "templates/Project/board.md",
+    "templates/Literature/base template metadata literature.md",
+    "templates/Literature/Books.md",
     "Projects/new project/index.md",
     "Projects/new project/notes/permanent/test note.md",
     "Projects/new project/notes/permanent",
@@ -202,7 +204,6 @@
     "templates/Permanent/permanent.md",
     "Permanent/Manipulacja/permanent/Nawyki.md",
     "templates/Permanent/moc.md",
-    "templates/Literature/Books.md",
     "assets/Pasted image 20230902175628.png"
   ]
 }

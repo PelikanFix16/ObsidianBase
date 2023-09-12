@@ -10,7 +10,7 @@ type: index
 ---
 # ❗ Create new note in kanban board 
 
-1. **Open Kanban board**
+1. **Open [[Projects/<% tp.file.folder() %>/<% tp.file.folder() %>|<% tp.file.folder() %> board]]**
 2. **Click** `ALT+K`
 
 ---
