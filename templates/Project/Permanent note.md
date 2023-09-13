@@ -4,6 +4,7 @@ aliases:
 tags:
   - <% tp.file.folder() %>
   - Permanent
+  - Project
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: permanent
 ---

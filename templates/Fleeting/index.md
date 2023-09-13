@@ -14,13 +14,9 @@ type: index
 ```button
 name Add fleeting note
 type command
-action QuickAdd: Add fleeting note
+action QuickAdd: Add fleeting note macro
 color blue
 ```
 
 # Notes list
 
-```dataview
-LIST
-FROM "Fleeting/<% tp.file.folder() %>/notes" and #Fleeting 
-```

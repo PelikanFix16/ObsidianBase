@@ -1,6 +1,6 @@
 ---
 aliases: 
-  - "<% tp.file.folder() %> note: <% tp.file.title %>"
+  - "note: <% tp.file.title %>"
 <% tp.file.include('[[base template metadata fleeting]]') %>
 ---
 

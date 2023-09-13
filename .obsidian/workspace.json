@@ -11,8 +11,13 @@
             "id": "a1ebcfdf7545e1ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#%>",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboard.md"
+              }
             }
           },
           {
@@ -168,9 +178,21 @@
   },
   "active": "a1ebcfdf7545e1ba",
   "lastOpenFiles": [
+    "Fleeting/test/notes/2023-09-13/some topic.md",
+    "Fleeting/test/index.md",
+    "templates/Fleeting/base template metadata fleeting.md",
+    "templates/Fleeting/Note.md",
+    "Fleeting/test/notes/2023-09-13",
+    "Fleeting/test/notes",
+    "Dashboard.md",
+    "Fleeting/test",
+    "templates/Fleeting/index.md",
+    "templates/Fleeting/Daily.md",
+    "templates/Project/Permanent note.md",
     "templates/Project/index.md",
-    "templates/Project/Fleeting note.md",
     "templates/Project/board.md",
+    "templates/Project/Fleeting note.md",
+    "templates/Fleeting/base template.md",
     "templates/Literature/base template metadata literature.md",
     "templates/Literature/Books.md",
     "Projects/new project/index.md",
@@ -180,7 +202,6 @@
     "Projects/new project/notes/fleeting",
     "Projects/new project/notes",
     "Projects/new project/new project.md",
-    "Dashboard.md",
     "Projects/new project",
     "Projects",
     "Projects/aispire/index.md",
@@ -188,22 +209,10 @@
     "Projects/aispire/notes/fleeting/new note.md",
     "Projects/aispire/notes/fleeting",
     "Projects/aispire/aispire.md",
-    "templates/Project/Permanent note.md",
     "Projects/aispire/notes/permanent/test note.md",
     "Projects/aispire/notes/permanent",
-    "Projects/aispire/notes",
-    "Projects/aispire",
     "Projects/test/notes/fleeting/test1.md",
     "Projects/test/index.md",
-    "Projects/test/notes/fleeting",
-    "Projects/test/test.md",
-    "Projects/test/notes/fleeting/notatka.md",
-    "Permanent/Manipulacja/permanent/supra.md",
-    "Permanent/Manipulacja/Manipulacja.md",
-    "Permanent/Manipulacja/permanent/marchewki.md",
-    "templates/Permanent/permanent.md",
-    "Permanent/Manipulacja/permanent/Nawyki.md",
-    "templates/Permanent/moc.md",
     "assets/Pasted image 20230902175628.png"
   ]
 }

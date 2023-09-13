@@ -4,6 +4,7 @@ aliases:
 tags:
   - <% tp.file.folder() %>
   - Fleeting
+  - Project
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: fleeting
 ---

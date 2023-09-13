@@ -133,34 +133,6 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "d9fcebbf-1f4a-4a85-b92f-54e06ea3f7d4",
-      "name": "Add fleeting note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "templates/Fleeting/Note.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value:note title}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": true,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "eb3df30e-525c-4a1c-a46d-2e45928c9e15",
       "name": "Create project",
       "type": "Macro",
@@ -217,6 +189,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "fe419965-0433-4084-9875-5d2b0ecd348b"
+    },
+    {
+      "id": "7c6b7e2f-7a5f-4627-afda-f8c077401e23",
+      "name": "Add fleeting note macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "997f697a-3bc8-41c8-bb23-16f73ea94053"
     }
   ],
   "macros": [
@@ -671,6 +650,86 @@
             "type": "Template",
             "command": false,
             "templatePath": "templates/Project/Permanent note.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": true,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add fleeting note macro",
+      "id": "997f697a-3bc8-41c8-bb23-16f73ea94053",
+      "commands": [
+        {
+          "name": "Add link",
+          "type": "NestedChoice",
+          "id": "b25ddb61-e578-4a05-b482-8ac9ceef87be",
+          "choice": {
+            "id": "daf4791c-3599-4d93-9aa5-9b65ccc4fd24",
+            "name": "Add link",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{value:title}}|note:{{value:title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Notes list",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add template",
+          "type": "NestedChoice",
+          "id": "f81482d3-60ad-4a10-871c-6ff61ed192ff",
+          "choice": {
+            "id": "c1087697-b563-4ce7-9262-b8d7a32f8378",
+            "name": "Add template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/Fleeting/Note.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{value:title}}"
